@@ -9,6 +9,6 @@ Shows how to require other files from within the same project. Have a look at th
 __debugExample.js__
 Adding debug messages in your code is a good idea. Here is one way of doing it.
 
-__modulesExample.js__
+__modulesExample2.js__
 Show how to encapsulate functionality into its own module. Look in the 'app_modules/cache' folder to see how to.
 
