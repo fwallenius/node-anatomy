@@ -1,6 +1,6 @@
 
-var Circle = require('./utils/circle');
-var Square = require('./utils/square');
+var Circle = require("./utils/circle");
+var Square = require("./utils/square");
 
 // A static function in "utils/circle.js"
 var myCircleArea = Circle.area(1337);

@@ -11,7 +11,6 @@ module.exports = function(name) {
 
   var internalMap = new map();
 
-
   return {
     put: function(key, val) {
 
@@ -35,5 +34,5 @@ module.exports = function(name) {
     size: function() {
       return internalMap.size();
     }
-  }
-}
+  };
+};

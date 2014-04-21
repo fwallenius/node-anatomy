@@ -9,4 +9,4 @@ var debug = require('debug')('skeleton:debugLogExample');
 // or
 // $ export DEBUG=skeleton:debugLogExample,skeleton:otherFile
 debug('This is one of the logging tools.');
-debug('There are other packages that can be installed for this as well.')
+debug('There are other packages that can be installed for this as well.');

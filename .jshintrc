@@ -1,0 +1,14 @@
+
+// Global project JSHint settings
+// Explanation of these are found at:
+// http://www.jshint.com/docs/options/
+
+{
+  "quotmark": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "undef": true,
+  "unused": true,
+  "predef": [ "it", "require", "module", "describe", "beforeEach", "console" ]
+}

@@ -1,7 +1,4 @@
 
-var debug = require('debug')('simple-cache-library:cache');
-
-
 // Really simple implementation of a key/value store that
 // shouldn't be used by anybody
 module.exports = function() {
@@ -21,13 +18,13 @@ module.exports = function() {
 
     size: function() {
       var amount = 0;
-      for (key in map) {
+      for (var key in map) {
         if (map.hasOwnProperty(key)) {
           amount += 1;
         }
       }
       return amount;
     }
-  }
+  };
 
-}
+};
